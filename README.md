@@ -17,5 +17,6 @@ pip install mutagen
 - Create Playlists using CreatePlaylist.py and use the obtained playlistID in Initiate.py.
 - Run Initiate.py for the required directory to add the resulted videos into playlists.
 
-
+### Limitations
+- Due to Youtube API quota limitations, only a certain amount(varies with the number of queries made) of videos can be added to playlists.
 
