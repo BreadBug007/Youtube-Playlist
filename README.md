@@ -5,8 +5,8 @@
 ### Youtube Data API v3
 - Create [Google Developers](https://developers.google.com/api-client-library/python/start/get_started) account using Authorized API access(OAuth 2.0).
 
-### mutagen
-Python [module](https://mutagen.readthedocs.io/en/latest/) used to handle audio metadata. 
+### [mutagen](https://mutagen.readthedocs.io/en/latest/)
+Python module used to handle audio metadata. 
 ```
 pip install mutagen
 ```
