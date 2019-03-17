@@ -3,7 +3,8 @@
 
 ## Dependencies
 ### [Youtube Data API v3](https://developers.google.com/youtube/v3/)
-- Create [Google Developers](https://developers.google.com/api-client-library/python/start/get_started) account and create credentials using Authorized API access(OAuth 2.0).
+- Create [Google Developers](https://developers.google.com/api-client-library/python/start/get_started) account. 
+- Create credentials using Authorized API access(OAuth 2.0) and download JSON file.
 
 ### [mutagen](https://mutagen.readthedocs.io/en/latest/)
 Python module used to handle audio metadata. 
