@@ -19,9 +19,7 @@ def get_song_info(root, search):
 
 
 
-def run(youtube):
-    
-    root_dir = r'E:/'
+def run(youtube, root_dir):
     
     file_dict = {}
     
@@ -56,14 +54,13 @@ def run(youtube):
 
 def youtube_search(youtube, search):
     return keyword_search(youtube, part='snippet',
-    maxResults=5,
+    maxResults=2,
     q=search,
     type='Video')
     
-def keyword_search(youtube, **k):
-    k = YoutubeAPI.remove_empty_kwargs(**k)
+def keyword_search(youtube, **kwargs):
+    kwargs = YoutubeAPI.remove_empty_kwargs(**kwargs)
     try:
-        return youtube.search().list(**k).execute()
+        return youtube.search().list(**kwargs).execute()
     except:
-        print('Video Not Found')
-        return 'Error'
+        return 'Video Not Found'

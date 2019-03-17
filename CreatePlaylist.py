@@ -36,5 +36,3 @@ def run(youtube, title, privacy):
         playlistID = add_playlist(youtube, title[index], privacy)
     
     return playlistID
-
-

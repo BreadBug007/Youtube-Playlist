@@ -23,4 +23,4 @@ def run(youtube, playlistID, VideoID, VideoName):
              'snippet.resourceId.kind': 'youtube#video',
              'snippet.resourceId.videoId': VideoID[index],
              'snippet.position': ''},
-             part='snippet',)
+              part='snippet')
